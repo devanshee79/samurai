@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Main ciontainer  -->
+    <div class="container">
+        <!-- health bar interface -->
+        <div class="healthBar">
+            <!-- player health  -->
+            <div id="playerHealth">
+                <div id="sudoplayerHealth"></div>
+                <div></div>
+            </div>   
+            
+            <!-- timer of game -->
+            <div id="timer">20</div>
+            <!-- Enemy health -->
+            <div id="enemyHealth">
+                <div id="sudoEnemyHealth"></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- displayText -->
+        <div id="displayText">Tie</div>
+        <canvas id="myCanva" width="1320" height="580"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" 
+    integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="utils.js"></script>
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
